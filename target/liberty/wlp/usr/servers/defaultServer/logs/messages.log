@@ -1,0 +1,32 @@
+********************************************************************************
+product = WebSphere Application Server 18.0.0.3 (wlp-1.0.22.cl180320180905-2337)
+wlp.install.dir = /Users/wxy/Movies/get-started-java/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Mac OS X (10.14.1; x86_64) (zh_CN)
+process = 37348@wxydembp.cn.ibm.com
+********************************************************************************
+[18-12-11 14:43:26:338 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: 已启动服务器 defaultServer。
+[18-12-11 14:43:26:361 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: 此产品允许用于开发，但限制生产使用。可在此处查看完整的许可条款：https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.3/lafiles/zh.html
+[18-12-11 14:43:28:612 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: 内核在 2.631 秒 后启动
+[18-12-11 14:43:28:714 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: 功能部件更新已开始。
+[18-12-11 14:43:32:305 CST] 00000011 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: 正在监视应用程序的 dropins。
+[18-12-11 14:43:32:337 CST] 00000019 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP 通道 defaultHttpEndpoint 已启动并且正在侦听主机 *  (IPv6) 端口 9080 上的请求。
+[18-12-11 14:43:34:196 CST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: 正在启动应用程序 GetStartedJava。
+[18-12-11 14:43:35:791 CST] 00000020 org.jboss.weld.Version                                       I WELD-000900: 2.4.7 (Final)
+[18-12-11 14:43:36:793 CST] 00000020 com.ibm.ws.session.WASSessionCore                            I SESN8501I: 会话管理器找不到持久性存储位置；会将 HttpSession 对象存储在本地应用程序服务器的内存中。
+[18-12-11 14:43:36:823 CST] 00000020 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: 正在装入 Web 模块：GetStartedJava-1.0-SNAPSHOT。
+[18-12-11 14:43:36:829 CST] 00000020 com.ibm.ws.webcontainer                                      I SRVE0250I: Web 模块 GetStartedJava-1.0-SNAPSHOT 已绑定到 default_host。
+[18-12-11 14:43:36:831 CST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web 应用程序可用 (default_host)：http://wxydembp.cn.ibm.com:9080/GetStartedJava/
+[18-12-11 14:43:36:844 CST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: 应用程序 GetStartedJava 已在 2.649 秒内启动。
+[18-12-11 14:43:36:925 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: 服务器已安装下列功能部件：[jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, servlet-3.1, beanValidation-1.1, jndi-1.0, jsonp-1.0, jdbc-4.1, jaxrs-2.0, jaxrsClient-2.0, el-3.0, json-1.0, jpaContainer-2.1, cdi-1.2, websocket-1.1, jpa-2.1]。
+[18-12-11 14:43:36:926 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: 已在 8.316 秒内完成功能部件更新。
+[18-12-11 14:43:36:927 CST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: 服务器 defaultServer 已准备就绪，可开始运行智慧地球。
+[18-12-11 14:43:36:991 CST] 00000026 com.ibm.ws.session.WASSessionCore                            I SESN0176I: 将为应用程序键 default_host/GetStartedJava 创建新会话上下文
+[18-12-11 14:43:37:025 CST] 00000026 com.ibm.ws.util                                              I SESN0172I: 会话管理器正在使用 Java 缺省 SecureRandom 实现以生成会话标识。
+[18-12-11 14:43:37:459 CST] 0000001e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: 在 /Users/wxy/Movies/get-started-java/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml 时为此服务器自动生成 Web 服务器插件的配置文件。
+[18-12-11 14:56:12:781 CST] 000002b2 SystemOut                                                    O Running locally. Looking for credentials in cloudant.properties
+[18-12-11 14:56:12:790 CST] 000002b2 SystemOut                                                    O To use a database, set the Cloudant url in src/main/resources/cloudant.properties
+[18-12-11 14:56:13:206 CST] 000002b2 .ibm.ws.jaxrs.2.0.common:1.0.22.cl180320180905-2337(id=139)] I Setting the server's publish address to be /api/
+[18-12-11 14:56:13:575 CST] 000002b2 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [GetStartedJava] [/GetStartedJava] [wasdev.sample.rest.VisitorAPI]: 初始化成功。
