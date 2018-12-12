@@ -27,3 +27,4 @@ You'll need a [IBM Cloud account](https://console.ng.bluemix.net/registration/),
 
 </p>
 <p>在原来代码的基础上面添加了servlet，用来生成log，这个log路径会在icm的cloud 的app/中。log是正常格式的输出，不需要用json格式的数据。</p>
+<p>这个Project是使用Idea来编辑的，所以不要使用eclipse啦！</p>
